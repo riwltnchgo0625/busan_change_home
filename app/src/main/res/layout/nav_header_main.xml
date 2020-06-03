@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/nav_header_height"
-    android:background="@drawable/sunset2"
-    android:gravity="bottom"
+    android:background="@drawable/busan_pro"
     android:orientation="horizontal"
 
 
@@ -13,27 +12,17 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
+
         android:id="@+id/imageView"
-        android:layout_width="168dp"
-        android:layout_height="176dp"
-        android:layout_gravity="end"
-        android:layout_marginTop="27dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginStart="200dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/profile_image_pink_white"
+        app:srcCompat="@drawable/profile_image_light_round"
         tools:layout_editor_absoluteX="-7dp" />
-
-    <TextView
-        android:layout_width="125dp"
-        android:layout_height="wrap_content"
-        android:gravity="left"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="부산여행\n Busan Travel"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="17dp"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="58dp"/>
 
 
 </LinearLayout>

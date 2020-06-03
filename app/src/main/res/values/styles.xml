@@ -6,9 +6,9 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#000000</item>
-        <item name="colorPrimaryDark">#7C7474</item>
+        <item name="colorPrimaryDark">#0080ff</item>
         <item name="colorAccent">@color/colorAccent</item>
-        <item name="android:textColorSecondary">#F3FF00</item>
+        <item name="android:textColorSecondary">#000000</item>
     </style>
 
     <style name="SplashTheme">
@@ -22,9 +22,9 @@
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >#000000</style>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">#000000</style>
 
 
 </resources>
